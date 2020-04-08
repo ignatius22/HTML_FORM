@@ -8,7 +8,17 @@ html {
     box-sizing: border-box;
 }
 
-.header {
+.nav-wrapper {
     display: flex;
     justify-content: flex-end;
+}
+
+.nav-note,
+.nav-link {
+    font-size: 12px;
+    padding: 4px;
+}
+
+.nav-link {
+    text-decoration: none;
 }
