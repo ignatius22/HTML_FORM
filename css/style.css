@@ -35,3 +35,22 @@ html {
     cursor: pointer;
     margin-right: 30px;
 }
+
+.form-btn {
+    position: relative;
+    top: -5px;
+}
+
+.lock-icon {
+    padding: 8px;
+}
+
+.main-header {
+    display: flex;
+    justify-content: center;
+}
+
+.title-header {
+    position: relative;
+    top: 30px;
+}
