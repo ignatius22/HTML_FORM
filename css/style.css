@@ -146,3 +146,40 @@ input[type=text],
     right: 250px;
     top: -75px;
 }
+
+.footer-list,
+ul,
+li,
+.footer-link {
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+    padding: 1px;
+    font-size: 13px;
+    position: relative;
+    bottom: 1px;
+    left: 5px;
+}
+
+.footer-description,
+.footer-text {
+    margin: 0;
+    text-align: center;
+    font-size: 13px;
+    padding: 2px;
+}
+
+.privacy-btn {
+    position: fixed;
+    left: 1160px;
+    width: 120px;
+    padding: 15px;
+    bottom: 1px;
+    font-size: 13px;
+    font-weight: 20px;
+    background-color: gray
+}
+
+.footer-description {
+    margin-bottom: 21px;
+}
