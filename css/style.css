@@ -119,3 +119,9 @@ input[type=text],
     color: #03a9fc;
     font-family: italic;
 }
+
+.terms-text {
+    margin: auto;
+    padding: 4px;
+    color: rgb(87, 85, 85);
+}
