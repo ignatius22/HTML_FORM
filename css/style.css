@@ -83,3 +83,39 @@ h2 {
     top: -41px;
     font-size: 10px;
 }
+
+.form-group,
+input {
+    position: relative;
+    bottom: 12px;
+    margin: 25px auto;
+}
+
+input[type=text],
+.form-btn {
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-container,
+.terms-condition {
+    margin: 20px auto;
+    text-align: center;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.terms-condition>p>a {
+    text-decoration: none;
+    color: #03a9fc;
+    font-family: italic;
+}
