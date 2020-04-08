@@ -22,3 +22,16 @@ html {
 .nav-link {
     text-decoration: none;
 }
+
+.nav-button {
+    padding: 10px;
+    position: relative;
+    bottom: 9px;
+    width: 100px;
+    border-radius: 4px;
+    background-color: #03a9fc;
+    color: #ddd;
+    border: none;
+    cursor: pointer;
+    margin-right: 30px;
+}
