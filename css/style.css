@@ -36,21 +36,12 @@ html {
     margin-right: 30px;
 }
 
-.form-btn {
-    position: relative;
-    top: -5px;
-}
-
-.lock-icon {
-    padding: 8px;
-}
-
-.main-header {
+.main-container {
+    background-color: white;
+    width: 375px;
+    height: 708px;
+    margin: 25px auto;
+    border: 1px solid #ddd;
     display: flex;
-    justify-content: center;
-}
-
-.title-header {
-    position: relative;
-    top: 30px;
+    flex-direction: column;
 }
