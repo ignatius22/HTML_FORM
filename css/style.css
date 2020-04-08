@@ -72,3 +72,14 @@ h2 {
     position: relative;
     top: -45px;
 }
+
+.account-text,
+.account-link {
+    margin: auto;
+}
+
+.call-text {
+    position: relative;
+    top: -41px;
+    font-size: 10px;
+}
