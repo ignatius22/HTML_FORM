@@ -125,3 +125,24 @@ input[type=text],
     padding: 4px;
     color: rgb(87, 85, 85);
 }
+
+.sub-footer,
+.privacy-link {
+    text-decoration: none;
+    text-align: center;
+    font-size: 10px;
+    white-space: normal;
+    margin: auto;
+    line-height: 1.5;
+    padding: 4px;
+}
+
+.main-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 800px;
+    position: relative;
+    right: 250px;
+    top: -75px;
+}
