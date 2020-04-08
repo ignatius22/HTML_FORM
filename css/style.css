@@ -45,3 +45,30 @@ html {
     display: flex;
     flex-direction: column;
 }
+
+.create-account {
+    text-align: center;
+    margin: 14px auto;
+}
+
+.account-link {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.account-text {
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: normal;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+.form-group {
+    padding: 23px;
+    font-size: 14px;
+    position: relative;
+    top: -45px;
+}
