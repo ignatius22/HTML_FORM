@@ -2,7 +2,7 @@ body,
 html {
     background-color: #ECEEF1;
     margin: 0;
-    font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: "AvenirNext", "Avenir", Helvetica "Neue", Helvetica, Arial, sans-serif;
     font-weight: normal;
     padding: 0;
     box-sizing: border-box;
@@ -16,6 +16,13 @@ html {
 .header {
     display: flex;
     justify-content: center;
+    position: relative;
+    top: 4px;
+}
+
+.title-header {
+    position: relative;
+    bottom: -20px;
 }
 
 .nav-note,
@@ -27,13 +34,8 @@ html {
 .nav-button,
 .nav-note {
     position: relative;
-    top: 10px;
+    top: 12px;
     margin: auto;
-}
-
-.nav-button {
-    position: relative;
-    top: -9px;
 }
 
 .nav-link {
@@ -41,16 +43,17 @@ html {
 }
 
 .nav-button {
-    padding: 10px;
+    padding: 5px;
     position: relative;
-    bottom: 9px;
+    top: -9px;
     width: 100px;
     border-radius: 4px;
     background-color: #2f52b4;
-    color: #ddd;
+    color: white;
     border: 1px black solid;
     cursor: pointer;
     margin-right: 30px;
+    text-align: center;
 }
 
 .main-container {
@@ -58,7 +61,7 @@ html {
     width: 375px;
     height: 708px;
     margin: 25px auto;
-    border: 1px solid #ddd;
+    border: 1px solid rgb(177, 173, 173);
     display: flex;
     flex-direction: column;
 }
@@ -74,9 +77,10 @@ html {
 }
 
 .account-text {
-    font-size: 15px;
+    font-size: 17px;
     line-height: 1.2;
     font-weight: normal;
+    text-align: center;
 }
 
 h2 {
@@ -98,14 +102,14 @@ h2 {
 .call-text {
     position: relative;
     top: -41px;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .form-group,
 input {
     position: relative;
     bottom: 12px;
-    margin: 25px auto;
+    margin: 30px auto;
 }
 
 input[type=text],
@@ -123,6 +127,11 @@ input[type=text],
     color: white;
     border-color: white;
     border: 1px black solid;
+    padding: 14px;
+}
+
+.lock-icon {
+    padding: 4px;
 }
 
 .sub-container {
