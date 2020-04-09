@@ -46,9 +46,9 @@ html {
     bottom: 9px;
     width: 100px;
     border-radius: 4px;
-    background-color: #03a9fc;
+    background-color: #2f52b4;
     color: #ddd;
-    border: none;
+    border: 1px black solid;
     cursor: pointer;
     margin-right: 30px;
 }
@@ -118,6 +118,13 @@ input[type=text],
     box-sizing: border-box;
 }
 
+.form-btn {
+    background-color: #2f52b4;
+    color: white;
+    border-color: white;
+    border: 1px black solid;
+}
+
 .sub-container {
     display: flex;
     flex-direction: column;
@@ -133,8 +140,7 @@ input[type=text],
 
 .terms-condition>p>a {
     text-decoration: none;
-    color: #03a9fc;
-    font-family: italic;
+    color: #0c3cc0;
 }
 
 .terms-text {
@@ -189,12 +195,15 @@ li,
 .privacy-btn {
     position: fixed;
     left: 1160px;
-    width: 120px;
-    padding: 15px;
-    bottom: 1px;
+    width: 130px;
+    padding: 12px;
+    bottom: -1px;
+    border: none;
     font-size: 13px;
     font-weight: 20px;
-    background-color: gray
+    background-color: gray;
+    color: white;
+    border-radius: 4px;
 }
 
 .footer-description {
