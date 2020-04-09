@@ -164,6 +164,10 @@ input[type=text],
     color: rgb(87, 85, 85);
 }
 
+.sub-footer {
+    background-color: gray;
+}
+
 .sub-footer,
 .privacy-link {
     text-decoration: none;
