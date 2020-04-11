@@ -124,6 +124,17 @@ input[type=text],
     box-sizing: border-box;
 }
 
+#password {
+    position: relative;
+}
+
+#password .position-in {
+    color: #c7c7c7;
+    position: absolute;
+    top: 42px;
+    left: 320px;
+}
+
 .form-btn {
     background-color: #2f52b4;
     color: white;
