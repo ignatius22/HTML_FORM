@@ -44,9 +44,6 @@ html {
 
 .nav-button {
     width: 100px;
-}
-
-.nav-button {
     position: relative;
     top: -9px;
     border-radius: 4px;
@@ -61,9 +58,6 @@ html {
 .main-container {
     width: 375px;
     height: 733px;
-}
-
-.main-container {
     background-color: white;
     margin: 25px auto;
     border: 1px solid rgb(177, 173, 173);
@@ -123,15 +117,11 @@ input {
 
 input[type=text],
 .form-btn {
+    width: 100%;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-}
-
-.form-btn,
-input {
-    width: 100%;
 }
 
 .form-btn,
