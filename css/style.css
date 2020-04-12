@@ -60,7 +60,7 @@ html {
 
 .main-container {
     width: 375px;
-    height: 779px;
+    height: 733px;
 }
 
 .main-container {
@@ -69,23 +69,19 @@ html {
     border: 1px solid rgb(177, 173, 173);
     display: flex;
     flex-direction: column;
-    border-bottom: none;
 }
 
-.create-account {
-    text-align: center;
-    margin: 14px auto;
-}
-
+.create-account,
 .account-text {
-    font-size: 17px;
-    line-height: 1.2;
-    font-weight: normal;
     text-align: center;
+    margin: 30px auto;
+    font-size: 14px;
 }
 
-h2 {
+.create-account,
+h1 {
     font-weight: normal;
+    font-size: 20px;
 }
 
 .form-group {
@@ -99,6 +95,12 @@ h2 {
 .account-link {
     margin: auto;
     text-decoration: none;
+    padding: 14px;
+}
+
+.account-link {
+    position: relative;
+    top: -20px;
 }
 
 .account-link,
@@ -191,7 +193,7 @@ input {
     bottom: 100px;
     background-color: #ddd;
     border-top: none;
-    padding: 10px;
+    padding: 15px;
     border-bottom: 1px solid rgb(177, 173, 173);
 }
 
