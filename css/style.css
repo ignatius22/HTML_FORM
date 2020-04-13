@@ -12,12 +12,12 @@ html {
     justify-content: flex-end;
 }
 
-.header {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: 4px;
-}
+    .header {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 4px;
+    }
 
 .title-header {
     position: relative;
