@@ -1,222 +1,222 @@
 body,
 html {
-    background-color: #eceef1;
-    margin: 0;
-    font-family: "AvenirNext", "Avenir", Helvetica, "Neue", Helvetica, Arial, sans-serif;
-    font-weight: normal;
-    padding: 0;
+  background-color: #eceef1;
+  margin: 0;
+  font-family: "AvenirNext", "Avenir", "Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  padding: 0;
 }
 
 .nav-wrapper {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .header {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: 4px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 4px;
 }
 
 .title-header {
-    position: relative;
-    bottom: -20px;
+  position: relative;
+  bottom: -20px;
 }
 
 .nav-note,
 .nav-link {
-    font-size: 12px;
-    padding: 4px;
+  font-size: 12px;
+  padding: 4px;
 }
 
 .nav-button,
 .nav-note {
-    position: relative;
-    top: 12px;
-    margin: auto;
-    padding: 5px;
+  position: relative;
+  top: 12px;
+  margin: auto;
+  padding: 5px;
 }
 
 .nav-link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .nav-button {
-    width: 100px;
-    position: relative;
-    top: -9px;
-    border-radius: 4px;
-    background-color: #2f52b4;
-    color: white;
-    border: 1px black solid;
-    cursor: pointer;
-    margin-right: 30px;
-    text-align: center;
+  width: 100px;
+  position: relative;
+  top: -9px;
+  border-radius: 4px;
+  background-color: #2f52b4;
+  color: white;
+  border: 1px black solid;
+  cursor: pointer;
+  margin-right: 30px;
+  text-align: center;
 }
 
 .main-container {
-    width: 375px;
-    height: 733px;
-    background-color: white;
-    margin: 25px auto;
-    border: 1px solid rgb(177, 173, 173);
-    display: flex;
-    flex-direction: column;
+  width: 375px;
+  height: 733px;
+  background-color: white;
+  margin: 25px auto;
+  border: 1px solid rgb(177, 173, 173);
+  display: flex;
+  flex-direction: column;
 }
 
 .create-account,
 .account-text {
-    text-align: center;
-    margin: 30px auto;
-    font-size: 14px;
+  text-align: center;
+  margin: 30px auto;
+  font-size: 14px;
 }
 
 .create-account,
 h1 {
-    font-weight: normal;
-    font-size: 20px;
+  font-weight: normal;
+  font-size: 20px;
 }
 
 .form-group {
-    padding: 23px;
-    font-size: 14px;
-    position: relative;
-    top: -45px;
+  padding: 23px;
+  font-size: 14px;
+  position: relative;
+  top: -45px;
 }
 
 .account-text,
 .account-link {
-    margin: auto;
-    text-decoration: none;
-    padding: 14px;
+  margin: auto;
+  text-decoration: none;
+  padding: 14px;
 }
 
 .account-link {
-    position: relative;
-    top: -20px;
+  position: relative;
+  top: -20px;
 }
 
 .account-link,
 .call-text {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .call-text {
-    position: relative;
-    top: -41px;
-    font-size: 12px;
+  position: relative;
+  top: -41px;
+  font-size: 12px;
 }
 
 .form-group,
 input {
-    position: relative;
-    bottom: 12px;
-    margin: 30px auto;
+  position: relative;
+  bottom: 12px;
+  margin: 30px auto;
 }
 
 input[type=text],
 .form-btn {
-    width: 100%;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+  width: 100%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
 .form-btn,
 input {
-    padding: 10px;
+  padding: 10px;
 }
 
 .form-btn {
-    background-color: #2f52b4;
-    color: white;
-    border-color: white;
-    border: 1px black solid;
-    padding: 14px;
+  background-color: #2f52b4;
+  color: white;
+  border-color: white;
+  border: 1px black solid;
+  padding: 14px;
 }
 
 .lock-icon {
-    padding: 4px;
+  padding: 4px;
 }
 
 .sub-container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-para,
 .privacy-link {
-    font-size: 11px;
+  font-size: 11px;
 }
 
 .sub-container,
 .terms-condition {
-    margin: 20px auto;
-    text-align: center;
-    font-weight: normal;
+  margin: 20px auto;
+  text-align: center;
+  font-weight: normal;
 }
 
-.terms-condition>p>a {
-    text-decoration: none;
-    color: #0c3cc0;
+.terms-condition > p > a {
+  text-decoration: none;
+  color: #0c3cc0;
 }
 
 .terms-text {
-    margin: auto;
-    padding: 4px;
-    color: rgb(87, 85, 85);
+  margin: auto;
+  padding: 4px;
+  color: rgb(87, 85, 85);
 }
 
 .sub-footer,
 .privacy-link {
-    text-decoration: none;
-    text-align: center;
-    white-space: normal;
-    line-height: 1.5;
-    padding: 4px;
+  text-decoration: none;
+  text-align: center;
+  white-space: normal;
+  line-height: 1.5;
+  padding: 4px;
 }
 
 .sub-footer {
-    position: relative;
-    bottom: 100px;
-    background-color: #ddd;
-    border-top: none;
-    padding: 15px;
-    border-bottom: 1px solid rgb(177, 173, 173);
+  position: relative;
+  bottom: 100px;
+  background-color: #ddd;
+  border-top: none;
+  padding: 15px;
+  border-bottom: 1px solid rgb(177, 173, 173);
 }
 
 .main-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 800px;
-    position: relative;
-    right: 250px;
-    top: -75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 800px;
+  position: relative;
+  right: 250px;
+  top: -75px;
 }
 
 .footer-list,
 ul,
 li,
 .footer-link {
-    text-decoration: none;
-    display: inline;
-    text-align: center;
-    padding: 1px;
-    position: relative;
-    bottom: 1px;
-    left: 5px;
-    color: gray;
+  text-decoration: none;
+  display: inline;
+  text-align: center;
+  padding: 1px;
+  position: relative;
+  bottom: 1px;
+  left: 5px;
+  color: gray;
 }
 
 .footer-description,
 .footer-text {
-    margin: 0;
-    text-align: center;
-    padding: 2px;
-    color: gray;
+  margin: 0;
+  text-align: center;
+  padding: 2px;
+  color: gray;
 }
 
 .footer-text,
@@ -224,25 +224,20 @@ li,
 .footer-list,
 .footer-link,
 .terms-condition {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 .privacy-btn {
-    width: 130px;
+  width: 130px;
+  position: fixed;
+  left: 1160px;
+  padding: 12px;
+  bottom: -1px;
+  border: none;
+  font-weight: normal;
+  background-color: gray;
+  color: white;
+  border-radius: 4px;
 }
 
-.privacy-btn {
-    position: fixed;
-    left: 1160px;
-    padding: 12px;
-    bottom: -1px;
-    border: none;
-    font-weight: normal;
-    background-color: gray;
-    color: white;
-    border-radius: 4px;
-}
-
-.footer-description {
-    margin-bottom: 21px;
-}
+.footer-description { margin-bottom: 21px; }
