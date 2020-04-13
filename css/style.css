@@ -14,14 +14,32 @@ html {
 
 .header {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   position: relative;
   top: 4px;
 }
 
 .title-header {
+  padding: 15px 0;
+}
+
+.sub-footer a {
+  color: #0077c5;
+}
+
+.header div a {
+  color: rgba(0, 0, 0, 0.7);
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding-right: 5px;
+}
+
+.header div a span {
   position: relative;
-  bottom: -20px;
+  bottom: 5px;
+  letter-spacing: 1.5;
 }
 
 .nav-note,
@@ -40,6 +58,7 @@ html {
 
 .nav-link {
   text-decoration: none;
+  color: #0077c5;
 }
 
 .nav-button {
@@ -68,7 +87,7 @@ html {
 .create-account,
 .account-text {
   text-align: center;
-  margin: 30px auto;
+  margin: 30px auto 0 auto;
   font-size: 14px;
 }
 
@@ -94,7 +113,8 @@ h1 {
 
 .account-link {
   position: relative;
-  top: -20px;
+  top: -15px;
+  color: #0077c5;
 }
 
 .account-link,
@@ -106,6 +126,7 @@ h1 {
   position: relative;
   top: -41px;
   font-size: 12px;
+  padding-top: 7px;
 }
 
 .form-group,
@@ -160,7 +181,7 @@ input {
 
 .terms-condition > p > a {
   text-decoration: none;
-  color: #0c3cc0;
+  color: #0077c5;
 }
 
 .terms-text {
@@ -180,7 +201,7 @@ input {
 
 .sub-footer {
   position: relative;
-  bottom: 100px;
+  bottom: 70px;
   background-color: #ddd;
   border-top: none;
   padding: 15px;
@@ -194,7 +215,7 @@ input {
   width: 800px;
   position: relative;
   right: 250px;
-  top: -75px;
+  top: -50px;
 }
 
 .footer-list,
@@ -240,4 +261,6 @@ li,
   border-radius: 4px;
 }
 
-.footer-description { margin-bottom: 21px; }
+.footer-description {
+  margin-bottom: 21px;
+}
